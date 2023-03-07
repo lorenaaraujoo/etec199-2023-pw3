@@ -207,7 +207,7 @@ function showIMC() {
     number--;
     var Person = People[number];
     if (number < 0 || number > 19){
-        document.getElementById("resultado").innerHTML = "Invalid number";
+        document.getElementById("result").innerHTML = "Invalid number";
     }else{
         var text = "";
         text += Person.Name + " - " + Person.IMC.toFixed(2) + " Categorized "+ Person.CategoryIMC +"<br>";
