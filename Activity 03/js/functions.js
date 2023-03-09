@@ -25,12 +25,12 @@ export default function calculatorIMC(people) {
 export function showIMC() {
     var number = document.getElementById("number").value;
     number--;
-    var Person = people[number];
+    var person = people[number];
     if (number < 0 || number > 19){
         document.getElementById("result").innerHTML = "Invalid number";
     }else{
         var text = "";
-        text += Person.Name + " - " + Person.IMC.toFixed(2) + " Categorized "+ Person.CategoryIMC +"<br>";
+        text += person.Name + " - " + person.IMC.toFixed(2) + " Categorized "+ person.CategoryIMC +"<br>";
         document.getElementById("result").innerHTML = text;
     };
 };
