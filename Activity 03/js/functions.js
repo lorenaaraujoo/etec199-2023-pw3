@@ -45,8 +45,8 @@ export function separateByCategory(){
         "Grade III obesity": 0
     };
     
-    for (var i = 0; i < People.length; i++) {
-        var person = People[i];
+    for (var i = 0; i < people.length; i++) {
+        var person = people[i];
         table[person.CategoryIMC] += 1;
     }
     
