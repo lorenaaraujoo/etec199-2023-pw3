@@ -1,4 +1,4 @@
-var People = [{
+var people = [{
     "Name": "Yan",
     "Age": 18,
     "Height": 1.72,
@@ -180,8 +180,8 @@ var People = [{
 ];
 
 function calculatorIMC() {
-    for (var i = 0; i < People.length; i++) {
-        var person = People[i];
+    for (var i = 0; i < people.length; i++) {
+        var person = people[i];
         person.IMC = person.Weight / (person.Height * person.Height);
 
         if (person.IMC < 18.5) {
@@ -200,17 +200,15 @@ function calculatorIMC() {
     }
 };
 
-calculatorIMC();
-
 function showIMC() {
     var number = document.getElementById("number").value;
     number--;
-    var Person = People[number];
+    var person = people[number];
     if (number < 0 || number > 19){
         document.getElementById("result").innerHTML = "Invalid number";
     }else{
         var text = "";
-        text += Person.Name + " - " + Person.IMC.toFixed(2) + " Categorized "+ Person.CategoryIMC +"<br>";
+        text += person.Name + " - " + person.IMC.toFixed(2) + " Categorized "+ person.CategoryIMC +"<br>";
         document.getElementById("result").innerHTML = text;
     };
 };
@@ -225,8 +223,8 @@ function separateByCategorya(){
         "Grade III obesity": 0
     };
     
-    for (var i = 0; i < People.length; i++) {
-        var person = People[i];
+    for (var i = 0; i < people.length; i++) {
+        var person = people[i];
         table[person.CategoryIMC] += 1;
     }
     
@@ -241,8 +239,10 @@ function displayAll(){
     var text = "";
     for (var i = 0; i < person.length; i++) {
         var place = i + 1;
-        var person = People[i];
+        var person = people[i];
         text += place + " | " + person.Name + " - " + person.IMC.toFixed(2) + " Categorized "+ person.CategoryIMC +"<br>";
     }
     document.getElementById("result").innerHTML = text;
 }
+
+calculatorIMC();
