@@ -1,4 +1,4 @@
-var People = [{
+var people = [{
     "Name": "Yan",
     "Age": 18,
     "Height": 1.72,
@@ -40,16 +40,16 @@ var People = [{
 ];
 
 function calculatorIMC() {
-    for (var i = 0; i < People.length; i++) {
-        var person = People[i];
+    for (var i = 0; i < people.length; i++) {
+        var person = people[i];
         person.IMC = person.Weight / (person.Height * person.Height);
     }
 };
 
-calculatorIMC();
-
-function showIMC(Person) {
+function showIMC(person) {
         var text = "";
-        text += Person.Name + " - " + Person.IMC.toFixed(2) + "<br>";
+        text += person.Name + " - " + person.IMC.toFixed(2) + "<br>";
         document.getElementById("result").innerHTML = text;
-    };
+};
+
+calculatorIMC();
