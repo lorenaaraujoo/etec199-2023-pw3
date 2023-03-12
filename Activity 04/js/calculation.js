@@ -1,9 +1,9 @@
 import Person from "./people.js";
 import { People } from "./people.js";
 
-export default function calculateObjetcs(People) {
+export default function calculateObjects(People) {
 for (var i = 0; i < People.length; i++) {
-    var Person = People[i].objetc;
+    var Person = People[i].object;
     Person.calculateIMC();
     Person.categorizeIMC();
     }
@@ -18,7 +18,7 @@ export function showIMC() {
         text += "Number invalid";
         document.getElementById("result").innerHTML = text;
     }else{
-        var Person = People[number].objetc;
+        var Person = People[number].object;
         text += Person.name + " - " + Person.imc.toFixed(2) + " Categorized: "+ Person.imcCategory +"<br>";
         document.getElementById("result").innerHTML = text;
     };
@@ -35,7 +35,7 @@ export function separateByCategory(){
     };
 
     for (var i = 0; i < People.length; i++) {
-        var Person = People[i].objetc;
+        var Person = People[i].object;
         table[Person.imcCategory] += 1;
     }
 
@@ -50,7 +50,7 @@ export function separateByCategory(){
 export function showList(){
     var text = "";
     for (var i = 0; i < People.length; i++) {
-        var Person = People[i].objetc;
+        var Person = People[i].object;
         text += Person.name + " - " + Person.imc.toFixed(2) + " Categorized: "+ Person.imcCategory +"<br>";
     }
     document.getElementById("result").innerHTML = text;
