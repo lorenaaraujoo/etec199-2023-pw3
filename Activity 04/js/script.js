@@ -5,8 +5,9 @@ import { showList } from "./calculation.js";
 import Person from "./people.js";
 import { People } from "./people.js";
 
+
+console.log(calculateObjetcs(People));
 console.log(People);
-calculateObjetcs(People);
 
 document.getElementById("showIMC").addEventListener("click", showIMC);
 document.getElementById("separateByCategory").addEventListener("click", separateByCategory);

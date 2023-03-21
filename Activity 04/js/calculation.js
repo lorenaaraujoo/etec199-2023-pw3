@@ -19,6 +19,7 @@ export function showIMC() {
         document.getElementById("result").innerHTML = text;
     }else{
         var Person = People[number].object;
+        console.log(Person);
         text += Person.name + " - " + Person.imc.toFixed(2) + " Categorized: "+ Person.imcCategory +"<br>";
         document.getElementById("result").innerHTML = text;
     };

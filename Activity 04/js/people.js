@@ -1,6 +1,7 @@
 export default class Person {
-    constructor(name, height, weight) {
+    constructor(name, age, height, weight) {
         this.name = name;
+        this.age = age;
         this.height = height;
         this.weight = weight;
         this.imc = 0;
