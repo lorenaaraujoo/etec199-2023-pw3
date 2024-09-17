@@ -1,27 +1,37 @@
-<h1 align=center> Programação Web III </h1>
+<h1 align=center> PROGRAMAÇÃO WEB III</h1>
+
+<p align="center">
+  <img src="etec.png" width="500">
+</p>
 
 #
-### SOBRE
+###  SOBRE
 
-- Repositório contendo exercícios desenvolvidos na matéria de Programação Web III, na ETEC Cidade Tiradentes.
-- Contém diversos projetos desenvolvido em aula, com o intuito de resolução dos execícios propostos.
+- Diretório contendo desenvolvimento dos exercícios na disciplina de Programação Web III na Etec Cidade Tiradentes em 2023.
 
 #
 ### CONTEUDO ABORDADO
 
-- *JavaScipt*:
   - Tipos de Dados Primitivos;
-  - *Operadores*: Aritméticos, Relacionais, Atribuição e Lógicos;
+  - *Operadores*: Aritmeticos, Relacionais, Atribuição e Lógicos;
   - *Estrutura de Decisão*: IF, ELSE, ELSE IF, SWITCH;
-  - Métodos, Classes e Objetos;
+  - *Estrutura de Repetição*: WHILE, DO WHILE, FOR, FOREACH;
+  - Vetores e Matrizes;
+  - Metodos;
+  - Formularios e Requisições;
+  - Classes e Objetos;
+  - Cookie e Session;
+  - Encapsulamento;
+  - Interface;
   - Identificação e Tratamento de Exceções;
   - Estrutura de Dados e Implementações;
-  - Ajax;
-  - Fetch API;
+  - POO;
 
 #
 ### TECNOLOGIAS
+![HTML](https://img.shields.io/badge/HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
+![CSS](https://img.shields.io/badge/CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=1572B6&labelColor=0D1117)&nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117&textColor=0D1117)&nbsp;
+![PHP](https://img.shields.io/badge/php-0D1117?style=for-the-badge&logo=php&logoColor=777BB4&labelColor=0D1117)&nbsp;
 
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)&nbsp;
-![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)&nbsp;
-![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1)&nbsp;
+#
