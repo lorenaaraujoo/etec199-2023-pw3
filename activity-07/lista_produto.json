@@ -1,0 +1,83 @@
+[
+    {
+      "codigo": "001",
+      "nome": "Smartphone",
+      "descricao": "Smartphone de última geração",
+      "preco": 1500.00,
+      "fornecedor": "Tecnocom",
+      "url_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-m546bdbhzto/gallery/br-galaxy-m54-5g-sm-m546-sm-m546bdbhzto-536057172?$1300_1038_PNG$"
+    },
+    {
+      "codigo": "002",
+      "nome": "Notebook",
+      "descricao": "Notebook leve e potente",
+      "preco": 2500.00,
+      "fornecedor": "ElectroTech",
+      "url_imagem": "https://static.vecteezy.com/system/resources/previews/018/923/575/original/computer-notebook-icon-png.png"
+    },
+    {
+      "codigo": "003",
+      "nome": "Headphones",
+      "descricao": "Fones de ouvido sem fio",
+      "preco": 100.00,
+      "fornecedor": "AudioSolutions",
+      "url_imagem": "https://static.vecteezy.com/system/resources/thumbnails/001/208/158/small/music-equipment-headphone.png"
+    },
+    {
+      "codigo": "004",
+      "nome": "Smart TV",
+      "descricao": "TV 4K com tecnologia HDR",
+      "preco": 1200.00,
+      "fornecedor": "VisualTech",
+      "url_imagem": "https://cdn.discordapp.com/attachments/859512879753199616/1138962952079286422/Smart-Tv-Png-removebg-preview.png"
+    },
+    {
+      "codigo": "005",
+      "nome": "Câmera DSLR",
+      "descricao": "Câmera profissional para fotografia",
+      "preco": 1800.00,
+      "fornecedor": "PhotoPro",
+      "url_imagem": "https://www.pngall.com/wp-content/uploads/12/DSLR-Camera-PNG-Picture.png"
+    },
+    {
+      "codigo": "006",
+      "nome": "Impressora a Laser",
+      "descricao": "Impressora rápida e de alta qualidade",
+      "preco": 400.00,
+      "fornecedor": "PrintTech",
+      "url_imagem": "https://www.pngmart.com/files/7/Laser-Printer-PNG-File.png"
+    },
+    {
+      "codigo": "007",
+      "nome": "Mouse Gamer",
+      "descricao": "Mouse com alta precisão para jogos",
+      "preco": 60.00,
+      "fornecedor": "GamingGear",
+      "url_imagem": "https://static.wixstatic.com/media/71a6c2_f7539887b6ea4a77856bf77a111a5213~mv2.png/v1/fill/w_531,h_367,al_c,lg_1,q_85,enc_auto/M711%20V2%20(2).png"
+    },
+    {
+      "codigo": "008",
+      "nome": "Teclado Mecânico",
+      "descricao": "Teclado resistente e responsivo",
+      "preco": 80.00,
+      "fornecedor": "TechKey",
+      "url_imagem": "https://cdn.awsli.com.br/600x450/1318/1318167/produto/215727955/k6c5d5-1-z1gvdpegnx.PNG"
+    },
+    {
+      "codigo": "009",
+      "nome": "Relógio Inteligente",
+      "descricao": "Relógio com monitoramento de atividades",
+      "preco": 130.00,
+      "fornecedor": "WearablesCo",
+      "url_imagem": "https://estoquedelas.com.br/cdn/shop/products/relogio-inteligente-smartwatch-estoquedelas-1.png?v=1662999703"
+    },
+    {
+      "codigo": "010",
+      "nome": "Caixa de Som Bluetooth",
+      "descricao": "Caixa de som portátil com conexão Bluetooth",
+      "preco": 70.00,
+      "fornecedor": "AudioTech",
+      "url_imagem": "https://www.jbl.com.br/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw0f709bee/JBL_BOOMBOX_2_FRONT_004%20MAIN_x2.png?sw=537&sfrm=png"
+    }
+  ]
+  
